@@ -18,3 +18,11 @@ AgentQuant is an autonomous research platform that converts a simple stock unive
 ---
 
 ## System Architecture  
+
+- **Interface**: Streamlit  
+- **Agent Layer**: LangChain + LangGraph + Gemini Pro  
+- **Data**: yfinance, FRED API, technical indicators  
+- **Backtesting**: vectorbt, performance & risk metrics  
+- **Visualization**: matplotlib, plotly  
+
+---
